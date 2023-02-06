@@ -2,7 +2,7 @@ const heading = require('mdast-util-heading-range')
 const toString = require('mdast-util-to-string')
 
 function defaultSummarizer (str) {
-  return 'Open ' + str
+  return '開く'
 }
 
 function isString (str) {
